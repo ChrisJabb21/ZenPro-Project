@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-HackathonBackendApplication<hackathon-backend>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.cognixia.hackathon.HackathonBackendApplication",
+            "projectName": "hackathon-backend",
+            "args": ""
+        }
+    ]
+}

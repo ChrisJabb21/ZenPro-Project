@@ -8,4 +8,5 @@ import com.cognixia.hackathon.model.User;
 
 public interface UserDAO extends CrudRepository<User, Integer>{
 	List<User> findAll();
+	User findByUserId(int userId);
 }

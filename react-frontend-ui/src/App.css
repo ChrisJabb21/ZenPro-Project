@@ -1,0 +1,229 @@
+
+html,body{
+  background-color: rgb(254, 255, 254);
+}
+
+.myBorder{
+  border-radius: 0 !important;
+}
+.homeImg{
+  width:85%;
+}
+
+.btn-success {
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+
+.label{
+  color: #006555;
+}
+
+.sticky{
+  width: 23% !important;
+  border: 1px solid #006555 !important;
+  color: #006555;
+  height: 800px !important;
+}
+
+.navbar {
+  background: #006555;
+  width:80%;
+  margin-left:10%;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+
+.navbar-container {
+  
+  background: #006555
+}
+
+.nav-menu-items {
+  color: #fff;
+  transition: 0.2s;
+}
+.nav-menu-items:hover {
+  color:lightgrey;
+}
+
+
+.nav-icons {
+  display: flex;
+  color: #fff;
+  align-items: flex-end;
+}
+
+a {
+  color: #fff;
+}
+
+
+.hero-container {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.citem{
+  height: 20%;
+}
+
+p {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.shopDiv{
+  padding:5px;
+  width:44%;
+  height:325px;
+  border:1px solid lightgrey;
+  border-radius: 25px;
+  margin:5px;
+  float:left;
+  transition:0.3s;
+}
+
+.shopdivHome{
+  padding:5px;
+  width:44%;
+  height:325px;
+  border:1px solid lightgrey;
+  border-radius: 25px;
+  margin:5px;
+  float:left;
+  transition:0.3s;
+}
+
+.shopDiv:hover{
+  background-color:rgb(250, 250, 255);
+  border:1px solid grey;
+  box-shadow: 1px 1px 5px #aaaaaa;
+}
+
+.myFooter{
+  bottom:0;
+  width:100%;
+  background-color: #006555;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+  background-color: rgb(255, 255, 255);
+  height:700px;
+  width:500px;
+  width:20%;
+  float:right;
+  padding: 20px;
+  border:1px solid rgb(29, 161 ,242);
+  border-radius: 10px;
+  margin-top: 25px;
+}
+.home{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+  background-color: rgb(255, 255, 255);
+  height:460px;
+  width:500px;
+  width:20%;
+  float:right;
+  padding: 20px;
+  border:1px solid rgb(29, 161 ,242);
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+.foot{
+  display:flex;
+  color:white;
+  height: 40px;
+  justify-content:center;
+   align-items:center;
+}
+
+div.sideBar {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: rgb(12, 136, 33,0.5);
+  height:482px;
+  width:26%;
+  float:left;
+  padding: 20px;
+  border:1px solid black;
+  margin-top: 0px;
+}
+.sizeButton{
+  background-color: white;
+  margin: 5px;
+  border:1px solid black;
+  border-radius: 2px;
+  transition:0.2s;
+  padding:5px 10px 5px;
+}
+
+.cartButton{
+  background-color: white;
+  margin: 5px;
+  border:1px solid black;
+  border-radius: 2px;
+  transition:0.2s;
+
+}
+
+.sizeButton:hover{
+  box-shadow: 1px 1px 5px #aaaaaa;
+}
+
+.cartButton:hover{
+  box-shadow: 1px 1px 5px #aaaaaa;
+  
+}
+
+.appDiv{
+  margin-left:10%;
+  width:80%;
+  border-radius:10px;
+    border: 1px solid rgb(217,217,217);
+    background-color: white;
+}
